@@ -100,7 +100,9 @@ For KServe , our request is base64 encoded  (unlike TorchServe, where it is in b
 # Step 4:  Inference Graph on minikube
 
 
-Then we will deploy the inference graph.
+Then we will deploy the inference graph, which looks as follows.
+
+![](./images/inf_graph.png)
 
 ```bash
 kubectl apply -f inf_graph.yaml
